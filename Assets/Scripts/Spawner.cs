@@ -26,12 +26,8 @@ public class Spawner : MonoBehaviour
         {
             for (int i = 0; i < randomCount; i++)
                 _createObject.Create(_cube.transform.position);
+        }
 
-            Destroy(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }
