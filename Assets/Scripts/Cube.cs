@@ -31,7 +31,7 @@ public class Cube : MonoBehaviour
 
     internal void SetColor(Color color)
     {
-         _renderer.material.color = color;
+        _renderer.material.color = color;
     }
 
     private void Awake()

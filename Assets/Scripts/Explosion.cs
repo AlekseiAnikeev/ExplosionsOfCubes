@@ -4,8 +4,9 @@ using System.Linq;
 
 public class Explosion : MonoBehaviour
 {
-    [SerializeField] private float _explosionRadius;
     [SerializeField] private float _explosionForce;
+
+    private float _explosionRadius = 0f;
 
     public void Explode()
     {
